@@ -35,6 +35,7 @@ M2HTML by itself generates an HTML documentation of the Matlab M-files found
  <http://www.artefact.tk/software/matlab/m2html/>
 
  Examples:
+ ```
  >> m2html('mfiles','matlab', 'htmldir','doc');
  
  >> m2html('mfiles',{'matlab/signal' 'matlab/image'}, 'htmldir','doc');
@@ -46,3 +47,5 @@ M2HTML by itself generates an HTML documentation of the Matlab M-files found
  >> m2html('mfiles','matlab', 'htmldir','doc', 'global','on');
  
  >> m2html( ... , 'template','frame', 'index','menu');
+ ```
+
