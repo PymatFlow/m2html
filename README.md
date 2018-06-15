@@ -14,24 +14,22 @@ M2HTML by itself generates an HTML documentation of the Matlab M-files found
  Launch M2HTML one directory above the directory your wanting to
  generate documentation for [ <all direct subdirectories> ]
  
- o htmlDir - Top level directory for generated HTML files [ 'doc' ]
- o recursive - Process subdirectories recursively [ on | {off} ]
- o source - Include Matlab source code in the generated documentation  [ {on} | off ]
- o download - Add a link to download each M-file separately [ on | {off} ]
- o syntaxHighlighting - Source Code Syntax Highlighting [ {on} | off ]
- o tabs - Replace '\t' (horizontal tab) in source code by n white space  characters [ 0 ... {4} ... n ]
- o globalHypertextLinks - Hypertext links among separate Matlab  directories [ on | {off} ]
- o todo - Create a TODO list in each directory summarizing all the  ' TODO ' lines found in Matlab code [ on | {off}]
- o graph - Compute a dependency graph using GraphViz [ on | {off}]  'dot' required, see <http://www.graphviz.org/>
- o indexFile - Basename of the HTML index file [ 'index' ]
- o extension - Extension of generated HTML files [ '.html' ]
- o template - HTML template name to use [ {'blue'} | 'frame' | ... ]
- o search - Add a PHP search engine [ on | {off}] - beta version!
- o save - Save current state after M-files parsing in 'm2html.mat' 
- in directory htmlDir [ on | {off}]
- o load - Load a previously saved '.mat' M2HTML state to generate HTML 
- files once again with possibly other options [ <none> ]
- o verbose - Verbose mode [ {on} | off ]
+* htmlDir - Top level directory for generated HTML files [ 'doc' ]
+* recursive - Process subdirectories recursively [ on | {off} ]
+* source - Include Matlab source code in the generated documentation  [ {on} | off ]
+* download - Add a link to download each M-file separately [ on | {off} ]
+* syntaxHighlighting - Source Code Syntax Highlighting [ {on} | off ]
+* tabs - Replace '\t' (horizontal tab) in source code by n white space  characters [ 0 ... {4} ... n ]
+* globalHypertextLinks - Hypertext links among separate Matlab  directories [ on | {off} ]
+* todo - Create a TODO list in each directory summarizing all the  ' TODO ' lines found in Matlab code [ on | {off}]
+* graph - Compute a dependency graph using GraphViz [ on | {off}]  'dot' required, see <http://www.graphviz.org/>
+* indexFile - Basename of the HTML index file [ 'index' ]
+* extension - Extension of generated HTML files [ '.html' ]
+* template - HTML template name to use [ {'blue'} | 'frame' | ... ]
+* search - Add a PHP search engine [ on | {off}] - beta version!
+* save - Save current state after M-files parsing in 'm2html.mat'  in directory htmlDir [ on | {off}]
+* load - Load a previously saved '.mat' M2HTML state to generate HTML  files once again with possibly other options [ <none> ]
+* verbose - Verbose mode [ {on} | off ]
 
  For more information, please read the M2HTML tutorial and FAQ at:
  <http://www.artefact.tk/software/matlab/m2html/>
